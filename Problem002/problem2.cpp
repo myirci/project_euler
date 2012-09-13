@@ -1,4 +1,6 @@
+// 06/09/2012 - Murat Yirci
 #include <iostream>
+
 using namespace std;
 
 void fibonacci(int prev, int curr);
