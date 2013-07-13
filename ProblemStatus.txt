@@ -9,6 +9,8 @@ Problem_008: Solved
 Problem_009: Solved
 Problem_010: Solved
 Problem_011: Solved
-Problem_012: 
+
+Problem_012: Brute force algorithm is implemented but the common divisior finder must be replaced with a more sophisticated one. The surrent code wii take a lot 
+of time to solve the problem.
 
 Problem_393: Brute force solver is implemented but it is not enough to solve the problem. A more sophisticated method is required. The brute force method can take several months (?) to solve the problem.
