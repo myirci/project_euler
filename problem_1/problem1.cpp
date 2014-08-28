@@ -1,10 +1,10 @@
 // 06/09/2012 - Murat Yirci
 #include <iostream>
-#include "../Utility/utility_functions.hpp"
+#include "utility_template_functions.hpp"
 using namespace std;
 
 void my_solution() {
-	int sum = 0;
+    int sum = 0;
 	for(int i = 3; i < 1000; ++i)
 		if((i % 3 == 0) || (i % 5 == 0))
 			sum += i;
@@ -12,7 +12,11 @@ void my_solution() {
 }
 
 void better_solution() {
-	unsigned int sum = sum_divisible_by(999, 3) + sum_divisible_by(999, 5) - sum_divisible_by(999, 15);
+
+    unsigned long long int sum =
+            sum_divisible_by(static_cast<unsigned int>(3), static_cast<unsigned int>(999)) +
+            sum_divisible_by(static_cast<unsigned int>(5), static_cast<unsigned int>(999)) -
+            sum_divisible_by(static_cast<unsigned int>(15), static_cast<unsigned int>(999));
 	cout << "sum: " << sum << endl;
 }
 
@@ -22,4 +26,4 @@ int main() {
 	return 0;
 }
 
-// The answer is: 233168
+// Answer: 233168

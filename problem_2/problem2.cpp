@@ -25,3 +25,5 @@ void fibonacci(int prev, int curr) {
 		}
 		fibonacci(prev, next);
 }
+
+// Answer: 4613732
