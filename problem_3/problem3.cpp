@@ -31,5 +31,4 @@ int main(void) {
 	return 0;
 }
 
-
 // Answer: 6857
