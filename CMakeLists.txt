@@ -6,7 +6,7 @@ project(project_euler)
 
 # compiler settings
 set(CMAKE_BUILD_TYPE Debug)
-add_definitions(-std=c++0x)
+add_definitions(-std=c++11)
 
 #cmake settingss
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${project_euler_SOURCE_DIR}/cmake)

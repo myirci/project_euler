@@ -3,17 +3,15 @@
 #include <limits>
 
 long long int sum_divisible_by(int n, int upper_limit) {
+
     unsigned long long int p = upper_limit / n;
     return static_cast<unsigned long long int>(n)*(p*(p+1)/2);
 }
 
 long long int fibonacci(int n) {
-    if(n < 2) {
-        return 1;
-    }
-    else {
-        return fibonacci(n-1) + fibonacci(n-2);
-    }
+
+    if(n < 2) return 1;
+    else      return fibonacci(n-1) + fibonacci(n-2);
 }
 
 void print_min_max_values() {

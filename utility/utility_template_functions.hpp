@@ -5,10 +5,11 @@
 #include <typeinfo>
 #include <type_traits>
 
-// Constraints	: T should be an unsigned integral type. 
-// Functionality: Calculates the sum of all the multiples of a number (n),
-//				  smaller than or equal to the given number (target).
-
+/*
+ * Constraints	: T should be an unsigned integral type.
+ * Functionality: Calculates the sum of all the multiples of a number (n),
+ *				  smaller than or equal to the given number (target).
+*/
 template <typename T>
 T sum_divisible_by(T n, T upper_limit) {
 
