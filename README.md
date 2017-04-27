@@ -1,4 +1,5 @@
 # project_euler
+Solutions to some mathematical problems.
 
 Have look at the mathematical problems:
 https://projecteuler.net/
