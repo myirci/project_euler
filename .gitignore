@@ -1,0 +1,2 @@
+# for excluding files or directories from source control
+./build
