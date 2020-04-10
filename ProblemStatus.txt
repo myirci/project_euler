@@ -10,7 +10,8 @@ Problem_009: Solved
 Problem_010: Solved
 Problem_011: Solved
 Problem_012: Solved
-Problem_013:
+Problem_013: Solved
+Problem_014: Solved
 
 Problem_393: 
 
