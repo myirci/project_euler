@@ -1,0 +1,6 @@
+No code is needed. 
+nxn grid, 
+n times to right and n times to down: total num moves: n+n = 2n
+
+Combination of C(2n,n) gives the different possible ways
+that is, C(40,20)
